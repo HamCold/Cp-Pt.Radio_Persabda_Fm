@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak Kami - Persada FM</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark sticky-top shadow-lg"
+        id="mainNavbar"
+      >
+        <div class="container">
+          <a
+            class="navbar-brand d-flex align-items-center fw-bold"
+            href="index.html"
+          >
+            <img
+              src="assets/img/logo_persabda.jpg"
+              alt="Logo Persada FM"
+              height="30"
+              class="me-2 bg-light p-1 rounded"
+            />
+            Persada FM 93.6
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-bold"
+                  aria-current="page"
+                  href="contact.html"
+                  >Kontak</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contact" class="py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-down">
+            <h1 class="section-title">Mari Berkolaborasi</h1>
+            <p class="lead text-secondary">
+              Kami siap menjawab setiap pertanyaan Anda dan merencanakan
+              kampanye promosi terbaik.
+            </p>
+          </div>
+
+          <div class="row g-5">
+            <div class="col-lg-6" data-aos="fade-right">
+              <h2 class="h4 text-primary mb-4 fw-bold">Formulir Pesan</h2>
+              <form
+                id="contactForm"
+                novalidate
+                class="p-4 bg-white rounded shadow-lg hover-lift"
+              >
+                <div class="mb-3">
+                  <label for="name" class="form-label fw-bold"
+                    >Nama Lengkap</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Masukkan nama Anda"
+                  />
+                  <div id="nameError" class="invalid-feedback"></div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-bold">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Masukkan email aktif Anda"
+                  />
+                  <div id="emailError" class="invalid-feedback"></div>
+                </div>
+
+                <div class="mb-4">
+                  <label for="message" class="form-label fw-bold"
+                    >Pesan / Detail Kebutuhan</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    placeholder="Tuliskan pesan atau kebutuhan iklan Anda di sini..."
+                  ></textarea>
+                  <div id="messageError" class="invalid-feedback"></div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-lg w-100 contact-btn-anim"
+                >
+                  Kirim Pesan
+                </button>
+              </form>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left">
+              <h2 class="h4 text-primary mb-4 fw-bold">
+                Detail Kantor & Marketing
+              </h2>
+
+              <div
+                class="d-flex align-items-start mb-4 p-3 bg-white rounded shadow-sm contact-info-box hover-lift"
+              >
+                <i
+                  class="fas fa-map-marker-alt fa-3x text-primary me-4 mt-1"
+                ></i>
+                <div>
+                  <span class="fw-bold d-block">Alamat Kantor Pusat</span>
+                  <p class="mb-0 text-secondary">
+                    Jl. KH. Samanhudi No. 32, Kel. Pelutan, Kec. Pemalang,
+                    Pemalang 52311
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="d-flex align-items-start mb-4 p-3 bg-white rounded shadow-sm contact-info-box hover-lift"
+              >
+                <i class="fab fa-whatsapp fa-3x text-success me-4 mt-1"></i>
+                <div>
+                  <span class="fw-bold d-block">Kontak Marketing (Iklan)</span>
+                  <p class="mb-0 text-secondary">0823-2952-3030</p>
+                </div>
+              </div>
+
+              <div
+                class="d-flex align-items-start mb-4 p-3 bg-white rounded shadow-sm contact-info-box hover-lift"
+              >
+                <i class="fas fa-envelope fa-3x text-info me-4 mt-1"></i>
+                <div>
+                  <span class="fw-bold d-block">Email Bisnis</span>
+                  <p class="mb-0 text-secondary">
+                    pemalangradiopersada@gmail.com
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="mt-4 p-3 bg-white rounded shadow-sm"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+              >
+                <h5 class="fw-bold mb-2">Lokasi Kami</h5>
+                <div
+                  style="
+                    height: 250px;
+                    background-color: #e9ecef;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 8px;
+                  "
+                >
+                  <i class="fas fa-map-marked-alt fa-3x text-secondary"></i>
+                </div>
+                <p class="small text-muted mt-2">
+                  *(Ganti area ini dengan *iframe* Google Maps untuk lokasi yang
+                  akurat.)*
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-lg-start">
+      <div class="container">
+        <div class="row pb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+            <h5 class="footer-title">Persada FM 93.6</h5>
+            <p class="small text-light">
+              PT Radio Persada Gunung Slamet, mitra siaran terpercaya Anda di
+              Pantura Jawa Tengah. <br />
+              Slogan: **"Kanca Batir Lahir Batin"**
+            </p>
+            <div class="mt-3">
+              <a
+                href="https://facebook.com/radiopersadapemalang"
+                target="_blank"
+                class="social-icon text-white"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://instagram.com/radiopersadapemalang"
+                target="_blank"
+                class="social-icon text-white"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon text-white"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="social-icon text-white"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-2 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <h5 class="footer-title">Navigasi</h5>
+            <a href="index.html" class="footer-link small">Beranda</a>
+            <a href="about.html" class="footer-link small">Tentang Kami</a>
+            <a href="services.html" class="footer-link small">Layanan</a>
+            <a href="gallery.html" class="footer-link small">Galeri</a>
+            <a href="contact.html" class="footer-link small">Kontak</a>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h5 class="footer-title">Bidang Usaha</h5>
+            <a href="services.html" class="footer-link small">Iklan Spot</a>
+            <a href="services.html" class="footer-link small"
+              >Adlips & Talkshow</a
+            >
+            <a href="services.html" class="footer-link small"
+              >Produksi Spot Audio</a
+            >
+            <a href="gallery.html" class="footer-link small"
+              >Liputan Komunitas</a
+            >
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <h5 class="footer-title">Hubungi Kami</h5>
+            <div class="small text-light mb-2">
+              <i class="fas fa-map-marker-alt me-2 text-primary"></i> Jl. KH.
+              Samanhudi No. 32, Pemalang
+            </div>
+            <div class="small text-light mb-2">
+              <i class="fas fa-phone-alt me-2 text-primary"></i> (0284) 5850001
+            </div>
+            <div class="small text-light">
+              <i class="fab fa-whatsapp me-2 text-primary"></i> 0823-2952-3030
+              (Iklan)
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+          <p class="mb-0 small text-secondary">
+            &copy; 2025 PT Radio Persada Gunung Slamet. Hak Cipta Dilindungi.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

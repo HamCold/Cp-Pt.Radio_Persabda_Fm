@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda - Persada FM Pemalang</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark sticky-top shadow-lg"
+        id="mainNavbar"
+      >
+        <div class="container">
+          <a
+            class="navbar-brand d-flex align-items-center fw-bold"
+            href="index.html"
+          >
+            <img
+              src="assets/img/logo_persabda.jpg"
+              alt="Logo Persada FM"
+              height="30"
+              class="me-2 bg-light p-1 rounded"
+            />
+            Persada FM 93.6
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-bold"
+                  aria-current="page"
+                  href="index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="p-0">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" style="height: 85vh">
+            <div
+              class="carousel-item active"
+              style="
+                background: linear-gradient(
+                    rgba(0, 123, 255, 0.7),
+                    rgba(0, 123, 255, 0.9)
+                  ),
+                  url('assets/img/hero_bg1.jpg') center/cover;
+                padding: 100px 0;
+              "
+            >
+              <div
+                class="container d-flex align-items-center justify-content-center text-center text-white h-100"
+              >
+                <div data-aos="fade-up" data-aos-duration="1500">
+                  <h1 class="display-1 fw-bolder mb-3">Persada FM 93.6</h1>
+                  <p class="fs-4 mb-4">"Kanca Batir Lahir Batin"</p>
+                  <a
+                    href="about.html"
+                    class="btn btn-light btn-lg shadow-lg me-3 pulse"
+                    >Kenal Lebih Dekat <i class="fas fa-arrow-right ms-2"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="carousel-item"
+              style="
+                background: linear-gradient(
+                    rgba(108, 117, 125, 0.6),
+                    rgba(108, 117, 125, 0.8)
+                  ),
+                  url('assets/img/hero_bg2.jpg') center/cover;
+                padding: 100px 0;
+              "
+            >
+              <div
+                class="container d-flex align-items-center justify-content-center text-center text-white h-100"
+              >
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                  <h2 class="display-3 fw-bolder mb-3">
+                    Solusi Promosi Terbaik
+                  </h2>
+                  <p class="fs-5 mb-4">
+                    Jangkau audiens Pantura Jawa Tengah secara masif dan
+                    terpercaya.
+                  </p>
+                  <a
+                    href="services.html"
+                    class="btn btn-warning btn-lg shadow-lg"
+                    >Layanan Iklan <i class="fas fa-bullhorn ms-2"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="summary" class="py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-down">
+            <h2 class="section-title">
+              Kenapa Persada FM Adalah Pilihan Tepat?
+            </h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4" data-aos="flip-right" data-aos-delay="100">
+              <div class="card p-4 text-center border-0 hover-lift">
+                <i
+                  class="fas fa-map-marker-alt card-icon mx-auto text-primary mb-3"
+                ></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Jangkauan Pantura Luas</h5>
+                  <p class="card-text text-secondary">
+                    Dari Pemalang hingga Brebes dan Pekalongan, suara kami
+                    menjangkau ribuan pendengar setia.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="flip-right" data-aos-delay="300">
+              <div class="card p-4 text-center border-0 hover-lift">
+                <i
+                  class="fas fa-chart-line card-icon mx-auto text-primary mb-3"
+                ></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Efektifitas Promosi Tinggi</h5>
+                  <p class="card-text text-secondary">
+                    Kami menyediakan platform iklan yang terbukti efektif dengan
+                    indikasi 90% rekomendasi publik.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="flip-right" data-aos-delay="500">
+              <div class="card p-4 text-center border-0 hover-lift">
+                <i
+                  class="fas fa-handshake card-icon mx-auto text-primary mb-3"
+                ></i>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Mitra Komunitas Sejati</h5>
+                  <p class="card-text text-secondary">
+                    Lebih dari sekadar radio, kami adalah 'Kanca Batir' yang
+                    aktif berinteraksi dan melayani komunitas lokal.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services-preview" class="py-5">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-down">
+            <h2 class="section-title">Layanan Inti Kami</h2>
+          </div>
+          <div class="row g-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <h3 class="fw-bold mb-4 text-primary">Jasa Iklan Siaran</h3>
+              <div class="list-group shadow-sm">
+                <div
+                  class="list-group-item list-group-item-action d-flex align-items-center"
+                >
+                  <i class="fas fa-bullseye fa-2x text-info me-3"></i>
+                  <div>
+                    <h5 class="mb-1">Spot Iklan Tepat Sasaran</h5>
+                    <p class="mb-0 text-secondary small">
+                      Durasi 30" atau 60" dengan penempatan waktu yang
+                      strategis.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="list-group-item list-group-item-action d-flex align-items-center"
+                >
+                  <i class="fas fa-comment-dots fa-2x text-info me-3"></i>
+                  <div>
+                    <h5 class="mb-1">Adlips & Talkshow Interaktif</h5>
+                    <p class="mb-0 text-secondary small">
+                      Iklan yang dibacakan penyiar (Adlips) atau sesi diskusi
+                      mendalam (Talkshow).
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a href="services.html" class="btn btn-outline-primary mt-4"
+                >Selengkapnya tentang Iklan</a
+              >
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+              <h3 class="fw-bold mb-4 text-primary">Lain-Lain</h3>
+              <div
+                class="accordion accordion-flush shadow-sm"
+                id="accordionLayanan"
+              >
+                <div class="accordion-item hover-lift">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                    >
+                      <i class="fas fa-music me-3 text-secondary"></i> Produksi
+                      Spot Iklan
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionLayanan"
+                  >
+                    <div class="accordion-body text-secondary small">
+                      Kami menyediakan layanan produksi materi iklan audio,
+                      termasuk Monolog, Dialog, hingga penambahan jingle
+                      profesional.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item hover-lift">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                    >
+                      <i class="fas fa-camera me-3 text-secondary"></i> Liputan
+                      Acara & Komunitas
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionLayanan"
+                  >
+                    <div class="accordion-body text-secondary small">
+                      Meliput dan mendokumentasikan kegiatan komunitas, acara
+                      daerah, atau sosialisasi publik. Lihat hasilnya di Galeri
+                      kami.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="bg-dark text-white py-5 text-center">
+        <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+          <h3 class="display-6 fw-bold mb-3">Siap Menjadi Mitra Kami?</h3>
+          <p class="fs-5 mb-4 text-light">
+            Hubungi tim kami dan jadikan Persada FM bagian dari kesuksesan
+            promosi Anda.
+          </p>
+          <a
+            href="contact.html"
+            class="btn btn-warning btn-lg shadow-lg contact-btn-anim"
+            >Hubungi Kami Sekarang <i class="fas fa-envelope-open-text ms-2"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-lg-start">
+      <div class="container">
+        <div class="row pb-4">
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+            <h5 class="footer-title">Persada FM 93.6</h5>
+            <p class="small text-light">
+              PT Radio Persada Gunung Slamet, mitra siaran terpercaya Anda di
+              Pantura Jawa Tengah. <br />
+              Slogan: **"Kanca Batir Lahir Batin"**
+            </p>
+            <div class="mt-3">
+              <a
+                href="https://facebook.com/radiopersadapemalang"
+                target="_blank"
+                class="social-icon text-white"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://instagram.com/radiopersadapemalang"
+                target="_blank"
+                class="social-icon text-white"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon text-white"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="social-icon text-white"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-2 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <h5 class="footer-title">Navigasi</h5>
+            <a href="index.html" class="footer-link small">Beranda</a>
+            <a href="about.html" class="footer-link small">Tentang Kami</a>
+            <a href="services.html" class="footer-link small">Layanan</a>
+            <a href="gallery.html" class="footer-link small">Galeri</a>
+            <a href="contact.html" class="footer-link small">Kontak</a>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h5 class="footer-title">Bidang Usaha</h5>
+            <a href="services.html" class="footer-link small">Iklan Spot</a>
+            <a href="services.html" class="footer-link small"
+              >Adlips & Talkshow</a
+            >
+            <a href="services.html" class="footer-link small"
+              >Produksi Spot Audio</a
+            >
+            <a href="gallery.html" class="footer-link small"
+              >Liputan Komunitas</a
+            >
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <h5 class="footer-title">Hubungi Kami</h5>
+            <div class="small text-light mb-2">
+              <i class="fas fa-map-marker-alt me-2 text-primary"></i> Jl. KH.
+              Samanhudi No. 32, Pemalang
+            </div>
+            <div class="small text-light mb-2">
+              <i class="fas fa-phone-alt me-2 text-primary"></i> (0284) 5850001
+            </div>
+            <div class="small text-light">
+              <i class="fab fa-whatsapp me-2 text-primary"></i> 0823-2952-3030
+              (Iklan)
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+          <p class="mb-0 small text-secondary">
+            &copy; 2025 PT Radio Persada Gunung Slamet. Hak Cipta Dilindungi.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
